@@ -41,6 +41,7 @@
                   <span class="font-medium">Gender</span>
                   <span>{{ userData.gender || 'loading...' }}</span>
                 </div>
+
                 <div class="flex justify-between">
                   <span class="font-medium">Email</span>
                   <span>{{ userData.email || 'loading...' }}</span>
@@ -49,14 +50,7 @@
                   <span class="font-medium">Phone</span>
                   <span>{{ userData.phone || 'loading...' }}</span>
                 </div>
-                <div class="flex justify-between">
-                  <span class="font-medium">Bike_model</span>
-                  <span>{{ userData.bike_model || 'loading...' }}</span>
-                </div>
-                <div class="flex justify-between">
-                  <span class="font-medium">Plate_number</span>
-                  <span>{{ userData.plate_number || 'loading...' }}</span>
-                </div>
+                
                 <div class="flex justify-between">
                   <span class="font-medium">Birthdate</span>
                   <span>{{ formatDate(userData.birthdate) || 'loading...' }}</span>
